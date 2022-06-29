@@ -1,0 +1,213 @@
+
+/*
+  For main App
+*/
+.App {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.poke-call {
+  border-top: solid 16px rgb(204, 43, 29);
+  min-height: 620px;
+  display: flex;
+  justify-content: center;
+  background: rgb(107,111,156);
+  background: linear-gradient(0deg, rgba(107,111,156,1) 0%, 
+  rgba(255,255,255,1) 45%);
+}
+/* 
+  End main App
+
+----------------------------
+
+  For DropdownContainer
+*/
+.dropdown-container {
+  height: fit-content;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: rgb(59, 87, 120);
+  border-bottom: solid 16px rgb(59, 87, 120);
+}
+
+.pokemon-logo {
+  display: block;
+  max-height: 176px;
+  max-width: 50%;
+  height: auto;
+  width: auto;
+  padding: 24px 12px 0px 12px;
+}
+
+.generation-selection {
+  width: 520px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-title{
+  margin-bottom: 10px;
+  color: rgb(59, 87, 120);
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.hor-flex{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search-stuff{
+  width: 100%;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.search-label {
+  margin: 0px;
+  padding: 0px 9px;
+  width: 95%;
+  font-size: 24px;
+  color: rgb(59, 87, 120);
+  background-color: rgb(239, 243, 247);
+}
+
+.search-box {
+  height: 25px;
+  width: 95%;
+  margin: 0px;
+  padding: 0px 9px;
+  background: rgb(239, 243, 247);
+  color: rgb(135, 135, 135);
+  font-size: 16px;
+}
+
+.search-arrow {
+  height: 40px;
+  margin: 0px;
+  padding-top: 15px;
+  color: rgb(59, 87, 120);
+  background-color: rgb(239, 243, 247);
+  font-size: 18px;
+}
+
+.search-items {
+  width: 445px;
+  position: absolute;
+  top: 118px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(135,135,135);
+  background: rgb(239, 243, 247);
+  font-size: 16px;
+}
+
+.search-button{
+  margin: 12px 50px 20px 16px;
+  padding: 8px 40px;
+  align-self: flex-end;
+  text-align: center;
+  color: rgb(59, 87, 120);
+  background-color: white;
+  border: solid 3px rgb(59, 87, 120);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.search-button:hover{
+  background-color: rgb(59, 87, 120);
+  border-radius: 3px;
+  color: white;
+}
+/*
+  End DropdownContainer
+
+  For DropdownItem
+*/
+.search-item {
+  width: 100%;
+  padding: 0px;
+  margin: 0px 0px 0px 5px;
+}
+
+.search-item:hover {
+  background: rgb(209, 213, 217);
+}
+/*
+  End DropdownItem
+
+  For PokeInfoDisplay
+*/
+.poke-info{
+  width: 45%;
+  min-width: 380px ;
+  margin: 20px;
+  padding: 16px;
+  background-color: white;
+  box-shadow: 2px 2px 15px black ;
+  border: solid 2px rgb(59, 87, 120);
+}
+
+.poke-name {
+  margin-top: 2px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.poke-image {
+  border: solid 2px rgb(46, 46, 104);
+}
+
+.poke-stats {
+  color: rgb(28, 28, 131);
+}
+
+.stat {
+  padding: 0px;
+  margin: 0px;
+}
+/*
+  End PokeInfoDisplay
+
+  For GenerationDisplay
+*/
+
+.poke-list {
+  margin: 8px 0px 2px 16px;
+  width: 85%;
+  max-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  overflow: scroll;
+}
+
+.poke-names {
+  text-align: center;
+  color: rgb(59, 87, 120);
+  width: 45%;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.poke-names:hover {
+  font-weight: bold;
+  border: solid 1px rgb(59, 87, 120);
+  box-shadow: 0px 0px 4px rgb(59, 87, 120);
+}
+
+.poke-holder {
+  margin: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(59, 87, 120);
+}
+/* End GenerationDisplay */
